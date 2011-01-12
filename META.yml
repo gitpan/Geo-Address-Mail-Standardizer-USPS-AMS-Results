@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Geo-Address-Mail-Standardizer-USPS-AMS-Results
-version:            0.04
+version:            0.05
 abstract:           results object from the USPS Address Matching System
 author:
     - Mike Eldridge <diz@cpan.org>
@@ -12,6 +12,7 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     Geo::Address::Mail::Standardizer:  0.01
+    Message::Stack:       0.17
     MooseX::Storage:      0.28
 no_index:
     directory:
